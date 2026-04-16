@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import { Play, Pause, Volume2, SkipForward, SkipBack } from "lucide-react";
 
 interface PlayerProps {
-  currentBeat: any;
+  currentBeat?: any;
 }
 
 export default function AudioPlayer({ currentBeat }: PlayerProps) {
