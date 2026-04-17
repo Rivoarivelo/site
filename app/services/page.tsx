@@ -1,7 +1,7 @@
 export default function ServicesPage() {
   const packs = [
-    { name: "MP3 Lease", price: "25.000 Ar", features: ["Fichier MP3", "Utilisation YouTube", "Limité à 5000 streams"] },
-    { name: "WAV Lease", price: "75.000 Ar", features: ["Fichier Haute Qualité", "Utilisation Radio", "Limité à 50.000 streams"] },
+    { name: "MP3 Lease", price: "15.000 Ar", features: ["Fichier MP3", "Utilisation YouTube", "Limité à 5000 streams"] },
+    { name: "WAV Lease", price: "35.000 Ar", features: ["Fichier Haute Qualité", "Utilisation Radio", "Limité à 50.000 streams"] },
     { name: "Exclusif", price: "Sur Devis", features: ["Droit de propriété complet", "Fichiers séparés (Stems)", "Utilisation illimitée"] },
   ];
 
@@ -19,6 +19,7 @@ export default function ServicesPage() {
           </div>
         ))}
       </div>
+      
     </div>
   );
 }
