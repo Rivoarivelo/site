@@ -1,5 +1,5 @@
 "use client";
-import { Facebook, Send } from "lucide-react";
+import { MessageCircle, Send } from "lucide-react";
 import { useState } from "react";
 
 export default function ContactPage() {
@@ -86,7 +86,7 @@ export default function ContactPage() {
             className="group flex flex-col items-center gap-2 text-zinc-400 hover:text-blue-500 transition"
           >
             <div className="p-4 bg-zinc-900 rounded-full group-hover:bg-blue-600/10 border border-zinc-800 group-hover:border-blue-500 transition shadow-xl">
-              <Facebook size={28} />
+              <MessageCircle size={28} />
             </div>
             <span className="text-[10px] font-black uppercase tracking-tighter">Facebook</span>
           </a>
