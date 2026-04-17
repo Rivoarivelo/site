@@ -9,7 +9,7 @@ export default function ContactPage() {
     event.preventDefault();
     setResult("Envoi en cours...");
     const formData = new FormData(event.target);
-    formData.append("access_key", "TON_ACCESS_KEY_ICI"); 
+    formData.append("access_key", "799b13a2-ff51-4a89-bbe1-59abb19d8bc1"); 
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -42,7 +42,7 @@ export default function ContactPage() {
       {/* Bouton Facebook avec SVG Manuel (Zéro erreur de build) */}
       <div className="mt-12 flex justify-center">
         <a 
-          href="https://www.facebook.com/rrivorakotoniaina1" 
+          href="https://www.facebook.com/profile.php?id=61579198421477" 
           target="_blank" 
           rel="noopener noreferrer"
           className="flex flex-col items-center gap-2 group"
