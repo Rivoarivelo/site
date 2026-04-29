@@ -10,7 +10,7 @@ export default function AudioPlayer({ currentBeat }: PlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  // 1. Déclencher la lecture automatique quand le beat change
+
   useEffect(() => {
     if (currentBeat && audioRef.current) {
       audioRef.current.play()
@@ -19,7 +19,6 @@ export default function AudioPlayer({ currentBeat }: PlayerProps) {
     }
   }, [currentBeat]);
 
-  // 2. Fonction pour alterner Play/Pause
   const togglePlay = () => {
     if (!audioRef.current) return;
 
